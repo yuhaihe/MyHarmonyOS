@@ -1,7 +1,7 @@
 @Entry
 @Component
 struct Mine {
-  @State message: string = 'Hello World';
+  @State message: string = 'MineHelloWorld';
 
   build() {
     RelativeContainer() {
@@ -14,7 +14,7 @@ struct Mine {
           middle: { anchor: '__container__', align: HorizontalAlign.Center }
         })
         .onClick(() => {
-          this.message = 'Welcome';
+          this.message = '我的';
         })
     }
     .height('100%')
